@@ -42,8 +42,8 @@ public class DuplicateTest {
     public void multiplyAmountWith_isMultiply_returnMultiplied() {
         int result;
 
-        Euro cash = new Euro(10);
-        result = cash.multiplyAmountWith(1, 5);
+        Euro cash = new Euro();
+        result = cash.multiplyAmountWith(10, 5);
         assertEquals(result, 50);
 
     }

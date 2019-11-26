@@ -2,6 +2,8 @@ public class Euro {
 
     private int hoeveelheid;
 
+    public Euro(){}
+
     public Euro(int aantal) {
         this.hoeveelheid = aantal;
     }
@@ -11,6 +13,6 @@ public class Euro {
     }
 
     public int multiplyAmountWith(int multiply,int number) {
-        return number * (this.hoeveelheid * multiply);
+        return number * multiply;
     }
 }

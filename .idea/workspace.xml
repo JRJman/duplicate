@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f3060c6d-aa0a-4e0b-9eab-5323d1f218d9" name="Default Changelist" comment="" />
+    <list default="true" id="f3060c6d-aa0a-4e0b-9eab-5323d1f218d9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/duplicate/Euro.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/duplicate/Euro.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/duplicate/DuplicateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/duplicate/DuplicateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Euro.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Euro.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/DuplicateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/DuplicateTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,12 +22,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TpOP9UV1h5A5lxEGrmPZCNmLQD" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../opdrachten" />
@@ -43,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DuplicateTest.testMultiplierWith">
+  <component name="RunManager" selected="JUnit.DuplicateTest.multiplyAmountWith_isMultiply_returnMultiplied">
     <configuration name="DuplicateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="duplicate" />
       <option name="PACKAGE_NAME" value="" />
@@ -58,6 +69,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DuplicateTest" />
       <option name="METHOD_NAME" value="duplicator_isDuplicate_returnDuplicate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DuplicateTest.multiplyAmountWith_isMultiply_returnMultiplied" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="duplicate" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DuplicateTest" />
+      <option name="METHOD_NAME" value="multiplyAmountWith_isMultiply_returnMultiplied" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -85,9 +106,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DuplicateTest.multiplyAmountWith_isMultiply_returnMultiplied" />
+        <item itemvalue="JUnit.DuplicateTest" />
         <item itemvalue="JUnit.DuplicateTest.testMultiplierWith" />
         <item itemvalue="JUnit.DuplicateTest.testMultiplier" />
-        <item itemvalue="JUnit.DuplicateTest" />
         <item itemvalue="JUnit.DuplicateTest.duplicator_isDuplicate_returnDuplicate" />
       </list>
     </recent_temporary>
@@ -104,10 +126,22 @@
       <updated>1574153543423</updated>
       <workItem from="1574153546117" duration="2094000" />
       <workItem from="1574757323371" duration="640000" />
+      <workItem from="1574758883901" duration="381000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
